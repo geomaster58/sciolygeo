@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StyleExercise</title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Lobster|Permanent+Marker" rel="stylesheet">
+</head>
+
+<body>
+ <%= video_tag(
+            'SkylightCrustCU.mp4',
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            
+            )
+            %>
+
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-inverse p-4">
+        <div class="row">
+          <div class="col-md-3">
+            <h4 class="instruct">Navigate our site</h4>
+            <svg height="70" width="200">
+              <defs>
+                <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" style="stop-color:black;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:grey;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <ellipse cx="100" cy="40" rx="60" ry="30" fill="url(#grad2)" />
+              
+                <text x="50" y="40" fill="white">Your Pet Rock</text>
+
+            </svg>
+          </div>
+          <div class="col-md-3">
+            <div class= "nav-item">
+              <span class="cool-font"><%= link_to "Home", root_path %></span>
+            </div>
+            <div class= "nav-item">
+              <span class="cool-font"><%= link_to "Pics", pics_path %></span>
+            </div>
+            <div class= "nav-item">
+              <span class="cool-font"><%= link_to "Events", events_path %></span>
+            </div>
+            <div class= "nav-item">
+              <span class="cool-font"><%= link_to "About", about_path %></span>
+            </div> 
+          </div>
+          <div class="col-md-6">
+            <h1 class="banner">Rocks And Minerals Rule!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-inverse bg-inverse">
+
+      <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span ></span>
+      </button>
+      
+    </nav>
+  </div>
+  <%= yield %>
+
+  <nav class="navbar fixed-bottom navbar-inverse bg-inverse">
+  <div class="nav-item">
+    <span class="cool-font mod"><a href="http://www.minerals.net/MineralMain.aspx">Find out more</a></span>
+  </div>
+</nav>
+</body>
+</html>

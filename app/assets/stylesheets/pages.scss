@@ -1,0 +1,58 @@
+
+@import "bootstrap";
+
+.color {
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+#navbarToggleExternalContent {
+ 
+  background: linear-gradient(-90deg, red, yellow); 
+}
+
+#navbarToggleExternalContent h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+.cool-font a{
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  text-decoration: none;
+}
+
+.cool-font a:hover{
+ color: white;
+}
+ .instruct {
+ font-family: 'Architects Daughter', cursive;
+ }
+
+ #background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width:100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('home_bg.png') no-repeat;
+  background-size: cover;
+}
+.mod a{
+  color: orange;
+}
+.fixed-bottom {
+  height: 70px;
+}
