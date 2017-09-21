@@ -10,4 +10,10 @@ class PagesController < ApplicationController
 
   def events
   end
+
+  def tricks
+  end
+
+  def funnies
+  end
 end

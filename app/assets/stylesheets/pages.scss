@@ -1,5 +1,6 @@
 
 @import "bootstrap";
+@import 'font-awesome';
 
 .color {
   color: black;
@@ -11,6 +12,8 @@
 
 .nav-item {
   margin-right: 15px;
+  text-align: center;
+  
 }
 
 #navbarToggleExternalContent {
@@ -20,7 +23,8 @@
 
 #navbarToggleExternalContent h1 {
   font-family: 'Lobster', cursive;
-  font-size: 50px;
+  font-size: 75px;
+  text-align: center;
 }
 
 .cool-font a{
@@ -56,3 +60,10 @@
 .fixed-bottom {
   height: 70px;
 }
+.instruct {
+  background-color: trasparent;
+}
+.nav-text {
+  font-size: 12px;
+}
+

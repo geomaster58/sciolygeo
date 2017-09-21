@@ -1,24 +1,13 @@
-# README
+# SciOlyGeo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- added favicon
+- made page structure
+- nearly finalized navbar
+- finished footer
 
-Things you may want to cover:
+## Need to do
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- add content to pages
+- finish links in navbar
+- connect to carrierwave and aws for picture uploading
+- create a admin user to edit page content. But no normal users
