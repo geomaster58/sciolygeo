@@ -11,3 +11,4 @@
 - finish links in navbar
 - connect to carrierwave and aws for picture uploading
 - create a admin user to edit page content. But no normal users
+- create picture model for both pics and funnies

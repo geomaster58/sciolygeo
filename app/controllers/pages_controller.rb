@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 
   def funnies
   end
+
+  def links  
+  end
 end
