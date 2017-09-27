@@ -74,12 +74,21 @@
 .card {
   background-color: transparent;
   border: none;
+  width: 100%;
+  font-family: 'Lobster', cursive;
 }
 .card h1 {
+  
   font-family: 'Permanent Marker', cursive;
+  font-size: 45px;
 }
-
 .extra-margin {
   margin-top: -20px;
 }
+.button {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
+
 
